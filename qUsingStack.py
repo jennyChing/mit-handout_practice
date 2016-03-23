@@ -40,4 +40,3 @@ class Queue(object):
         if not self.deq:
             while self.enq:
                 self.deq.append(self.enq.pop())
-
